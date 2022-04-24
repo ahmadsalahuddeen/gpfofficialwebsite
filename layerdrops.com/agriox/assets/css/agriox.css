@@ -2279,7 +2279,7 @@ button {
 }
 
 .page-header__inner .thm-breadcrumb li + li {
-  padding-left: 13px;
+  padding-left: 0px;
 }
 
 .page-header__inner .thm-breadcrumb li a {
@@ -4360,6 +4360,11 @@ button {
 .cta-two {
   padding-top: 120px;
   padding-bottom: 120px;
+  position: relative;
+}
+.cta-two-custom {
+  padding-top: 5px;
+  padding-bottom: 5px;
   position: relative;
 }
 
@@ -8763,13 +8768,21 @@ Sidebar
   display: block;
   margin-top: 45px;
 }
-
+.projects-details__text-box1-custom {
+  position: relative;
+  display: block;
+  margin-top: 45px;
+}
 .projects-details__text-box1 h2 {
   font-size: 50px;
   line-height: 60px;
   letter-spacing: -0.04em;
 }
-
+.projects-details__text-box1-custom h2 {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+}
 .projects-details__text-box1 .text1 {
   margin-bottom: 33px;
   margin-top: 37px;
