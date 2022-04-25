@@ -4883,6 +4883,11 @@ button {
   display: block;
   overflow: hidden;
 }
+.footer-one__bottom-social-links-custom {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
 
 .footer-one__bottom-social-links ul {
   position: relative;
