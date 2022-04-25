@@ -11303,8 +11303,9 @@ Sidebar
   border-radius: 10px;
   -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
           box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
-  margin-top: -30px;
+  margin-top: -100px;
   z-index: 10;
+  margin-bottom: -50px;
   position: relative;
   background-color: #fff;
 }
@@ -11327,15 +11328,18 @@ Sidebar
 }
 
 .features-four__item {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
   padding-left: 30px;
+  
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          
 }
 
 @media (min-width: 992px) {
@@ -11353,6 +11357,7 @@ Sidebar
 .features-four__title {
   margin: 0;
   font-size: 18px;
+  align-self: center;
   font-weight: 700;
   color: var(--agriox-primary);
   line-height: 30px;
